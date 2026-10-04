@@ -50,5 +50,4 @@ console.log(verificarPalavra(matriz2));
 console.log(verificarPalavra(matriz3));
 console.log(verificarPalavra(matriz4));
 
-
 // Criei uma função verificarPalavra e, em seguida, fiz uma verificação inicial para retornar null caso a palavra seja vazia ou contenha apenas espaços. Depois, transformei a string em minúsculas e a separei em um array de palavras com split. Criei um objeto contagem para armazenar a frequência das palavras, uma variável maior para registrar o número máximo de ocorrências e uma variável result para guardar a palavra mais frequente. Fiz um laço para percorrer o array e, para cada palavra, incrementei a contagem no objeto. Dentro do mesmo laço, fiz uma verificação: se a contagem da palavra atual for maior que o valor armazenado em maior, atualizo o valor de maior e atribuo a palavra à variável result. Por fim, a função retorna a variável result com a palavra mais frequente.
